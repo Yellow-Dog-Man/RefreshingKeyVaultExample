@@ -9,7 +9,7 @@ By Combining together some packages:
 
 and ensuring that the `ReloadInterval` is set for the Secret Store. 
 
-We're able to use IOptionsMonitor to deliver a POCO(Plain old CLR object), 
+We're able to use [IOptionsMonitor](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptionsmonitor-1?view=net-9.0-pp) to deliver a POCO(Plain old CLR object), 
 to an `Microsoft.Extensions.Hosting.BackgroundService` instance, in a really clean way.
 
 The service can then just update the underlying Secret Consumer, which in this case is a [Patreon.NET Client](https://www.nuget.org/packages/YellowDogMan.Patreon.NET) for example reasons.
