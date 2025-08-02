@@ -47,3 +47,4 @@ Oh and NEVER, log secrets to a logger like we do here. Follow [Log Redaction](ht
 - https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptionsmonitor-1?view=net-9.0-pp
 - https://learn.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-9.0&viewFallbackFrom=aspnetcore-2.2#bind-an-array-to-a-class
 - https://learn.microsoft.com/en-us/dotnet/core/extensions/data-redaction?tabs=dotnet-cli#example-redacting-data-in-logs
+- https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/extensions/Azure.Extensions.AspNetCore.Configuration.Secrets/src
