@@ -9,7 +9,6 @@ By Combining together some packages:
 
 and ensuring that the `ReloadInterval` is set for the Secret Store. 
 
-
 We're able to use IOptionsMonitor to deliver a POCO(Plain old CLR object), 
 to an `Microsoft.Extensions.Hosting.BackgroundService` instance, in a really clean way.
 
@@ -35,6 +34,10 @@ Oh and NEVER, log secrets to a logger like we do here. Follow [Log Redaction](ht
 1. Modify the Secret Value
 1. Wait 1 Minute
 1. Observe the Logs, They should pickup the new keys
+
+## Video Explainer
+
+[A video explaining this project is available](https://www.youtube.com/watch?v=AzuIqyyVSTg)
 
 ## References
 - https://learn.microsoft.com/en-us/azure/key-vault/general/overview
